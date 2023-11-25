@@ -132,17 +132,28 @@
                       <!-- Community -->
 
 
-                      <!-- Login -->
-                      <li><a href="#" style="color: orange;">Login</a>
+                      <!-- Signup or Login -->
+                      <li><a href="#" style="color: orange;">Signup/Login</a>
+                        <ul class="submenu">
+                          <li>
+                            <a href="#" style="color: orange;" hx-get="/signup" hx-target="#content"
+                              hx-trigger="click">Signup</a>
+                          </li>
+                          <li>
+                            <a href="#" style="color: orange;" hx-get="/login" hx-target="#content"
+                              hx-trigger="click">Login</a>
+                          </li>
+                        </ul>
                       </li>
-                      <!-- Login -->
+                      <!-- Signup ot Login -->
 
 
+                      <!-- Search Bar-->
+                      <button type="button" class="btn text-primary ms-3" hx-get="/search" hx-target="#searchModal"
+                        hx-trigger="click">
+                        <i class="fa fa-search"></i>
+                      </button>
                       <!-- Search Bar -->
-                      <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                      <!-- Search Bar -->
-
 
                     </ul>
                   </nav>
@@ -496,6 +507,9 @@
 
 
   <!-- JS here -->
+
+  <!-- Include htmx library -->
+  <script src="https://unpkg.com/htmx.org@1.7.0/dist/htmx.js"></script>
 
   <!-- All JS Custom Plugins Link Here here -->
   <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
