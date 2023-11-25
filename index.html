@@ -136,12 +136,10 @@
                       <li><a href="#" style="color: orange;">Signup/Login</a>
                         <ul class="submenu">
                           <li>
-                            <a href="#" style="color: orange;" hx-get="/signup" hx-target="#content"
-                              hx-trigger="click">Signup</a>
+                            <a href="#" hx-get="/signup" hx-target="#content" hx-trigger="click">Signup</a>
                           </li>
                           <li>
-                            <a href="#" style="color: orange;" hx-get="/login" hx-target="#content"
-                              hx-trigger="click">Login</a>
+                            <a href="#" hx-get="/login" hx-target="#content" hx-trigger="click">Login</a>
                           </li>
                         </ul>
                       </li>
@@ -505,11 +503,16 @@
   </div>
 
 
+  <!-- Models -->
+  <!-- Include the Signup and Login modals -->
+  <div hx-include="./assets/html/signup.html" hx-target="#signupModal .modal-content" hx-swap="outerHTML"></div>
+  <div hx-include="./assets/html/login.html" hx-target="#loginModal .modal-content" hx-swap="outerHTML"></div>
 
   <!-- JS here -->
-
   <!-- Include htmx library -->
-  <script src="https://unpkg.com/htmx.org@1.7.0/dist/htmx.js"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.9"
+    integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX"
+    crossorigin="anonymous"></script>
 
   <!-- All JS Custom Plugins Link Here here -->
   <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
