@@ -3,7 +3,7 @@
 # Organization Website
 - https://robotics-sensors.github.io/
 
-## Contribution in each aaterogy will be features in out website
+## Contribution in each aaterogy will be features in our BR&SRI Center Website
 - Pull request
 
 
