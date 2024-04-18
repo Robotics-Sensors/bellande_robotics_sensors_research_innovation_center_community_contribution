@@ -8,10 +8,7 @@
 
 
 ### Home Category
-- [Home Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Home/home.md)
 - [Industries Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Home/industries.md)
-- [News and Events Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Home/news_and_events.md)
-
 
 ### Information Category
 - [Introduction Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Information/introduction.md)
