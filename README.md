@@ -35,7 +35,6 @@
 - [Libraries &xtensions Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Resources/libraries_and_extensions.md)
 
 
-
 ### Community Category
 - [Team Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Community/team.md)
 - [Join Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Community/join.md)
@@ -45,5 +44,4 @@
 - [Contribute Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Community/contribute.md)
 - [Study Case Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Community/study_case.md)
 - [About Page](https://github.com/Robotics-Sensors/robotics-sensors.github.io/blob/main/community_contribution/Community/about.md)
-
 
