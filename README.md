@@ -1,10 +1,7 @@
 # Bellande Robotics & Sensors Research Innovation Center Community Contribution
 
 # Organization Website
-- https://robotics-sensors.github.io/
-
-## Contribution in each aaterogy will be features in our BR&SRI Center Website
-- Pull request
+- https://bellande-robotics-sensors-research-innovation-center.org
 
 
 ### Home Category
